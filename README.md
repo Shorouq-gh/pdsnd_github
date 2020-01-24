@@ -1,6 +1,6 @@
 ### Date created
-Project Created on December 2019
-README file created on January 2019
+Project completed on 25 December 2019
+README file created on 24 January 2020
 
 ### Project Title
 US Bikeshare Project
