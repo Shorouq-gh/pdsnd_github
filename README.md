@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Project Created on December 2019
+README file created on January 2019
 
 ### Project Title
-Replace the Project Title
+US Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project analyses large datasets from a bike renting company and provides various descriptive statistics.
 
 ### Files used
-Include the files used
+3 csv files (chicago.csv, new_york_city.csv, washington.csv)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Data provided by Udacity.
