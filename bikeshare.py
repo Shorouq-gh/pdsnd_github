@@ -1,10 +1,13 @@
+
 import time
 import pandas as pd
 import numpy as np
 
+#Here are the files of the data that are analyzed.
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+
 cities=['chicago', 'new york city', 'washington']
 months = ['january', 'february', 'march', 'april', 'may', 'june','july', 'august', 'september', 'october', 'november', 'december' ,'all']
 days=['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday','all']
@@ -37,7 +40,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#This function loads the data for the city,month, and day that the user inputs.
 def load_data(city, month, day):
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
